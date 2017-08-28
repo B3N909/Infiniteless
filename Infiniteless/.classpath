@@ -6,14 +6,11 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Infiniteless/lib/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/lwjgl.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/lwjgl_util.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/slick-util.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/commons-math3-3.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/flow-noise-1.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/PNGDecoder.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/react-1.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/junit.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ben/workspaceMinecraft/Infiniteless/lib/jars/trove-3.1a1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/git/Infiniteless/Infiniteless/lib/jars/lwjgl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/git/Infiniteless/Infiniteless/lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/git/Infiniteless/Infiniteless/lib/jars/slick-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/git/Infiniteless/Infiniteless/lib/jars/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/git/Infiniteless/Infiniteless/lib/jars/flow-noise-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/git/Infiniteless/Infiniteless/lib/jars/PNGDecoder.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

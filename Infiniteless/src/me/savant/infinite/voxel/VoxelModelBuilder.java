@@ -5,9 +5,6 @@ import java.util.List;
 
 import org.lwjgl.util.vector.Vector3f;
 
-import com.flowpowered.react.collision.shape.ConvexMeshShape;
-import com.flowpowered.react.math.Vector3;
-
 import me.savant.util.Maths;
 
 public class VoxelModelBuilder
@@ -56,44 +53,6 @@ public class VoxelModelBuilder
 			}
 			vertexPointer++;
 		}
-	}
-	
-	public static void addPhysics(ConvexMeshShape shape, VoxelFace face)
-	{
-		float[] rawVertices = face.getVertices();
-		Vector3[] vertices = new Vector3[4];
-		int[] indices = face.getIndices();
-		int i = 0;
-		int pointer = 1;
-		
-		float x = 0;
-		float y = 0;
-		float z = 0;
-		for(float vertice : rawVertices)
-		{
-			if(pointer == 1)
-			{
-				x = vertice;
-			}
-			else if(pointer == 2)
-			{
-				y = vertice;
-			}
-			else
-			{
-				z = vertice;
-				vertices[i] = new Vector3(x, y, z);
-				pointer = 0;
-				i++;
-			}
-			pointer++;
-		}
-		
-		for(int indice : indices)
-		{
-			shape.addVertex(vertices[indice]);
-		}
-		
 	}
 	
 	public float[] getVertices()
